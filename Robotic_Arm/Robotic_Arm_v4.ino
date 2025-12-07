@@ -1,3 +1,4 @@
+//#include <Arduino.h> //uncomment this line if using platformIo
 #include <BluetoothSerial.h>
 #include <ESP32Servo.h>
 

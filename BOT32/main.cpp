@@ -1,7 +1,7 @@
-#include <Arduino.h>
-#include <BluetoothSerial.h>
+#include <Arduino.h>                  //include this file if you're working in platformIO
+#include <BluetoothSerial.h>          //including the esp32 serial bluetooth library
 
-BluetoothSerial SerialBT;
+BluetoothSerial SerialBT;             //object of class BluetoothSerial as SerialBT
 
 int val;
 
@@ -108,6 +108,7 @@ void loop(){
 
   if(val==201){digitalWrite(buzzer,HIGH);}
   if(val==202){digitalWrite(buzzer,LOW);}
+
 
 
 }

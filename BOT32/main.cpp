@@ -52,7 +52,8 @@ void moveLeft()                      //for the skoolbot / bot32 to rotate left
   digitalWrite(m2B,LOW);
 }
 
-void moveRight(){
+void moveRight()                      //for the skoolbot / bot32 to rotate right
+{
   digitalWrite(enableA,HIGH);
   digitalWrite(enableB,HIGH);
   digitalWrite(m1A,HIGH);
@@ -115,6 +116,7 @@ void loop(){
 
 
 }
+
 
 
 

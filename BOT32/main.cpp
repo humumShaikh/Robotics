@@ -22,7 +22,8 @@ int val;
 #define servoPin 
 
 
-void moveForward(){
+void moveForward()                    //for the skoolbot / bot32 to move forward
+{
   digitalWrite(enableA,HIGH);
   digitalWrite(enableB,HIGH);
   digitalWrite(m1A,HIGH);
@@ -112,3 +113,4 @@ void loop(){
 
 
 }
+

@@ -42,7 +42,8 @@ void moveBackward()                  //for the skoolbot / bot32 to move backward
   digitalWrite(m2B,HIGH);
 }
 
-void moveLeft(){
+void moveLeft()                      //for the skoolbot / bot32 to rotate left
+{
   digitalWrite(enableA,HIGH);
   digitalWrite(enableB,HIGH);
   digitalWrite(m1A,LOW);
@@ -114,5 +115,6 @@ void loop(){
 
 
 }
+
 
 

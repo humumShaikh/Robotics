@@ -92,7 +92,7 @@ void setup(){
 
 void loop(){
 
-  while(SerialBT.available()==0){}
+  while(SerialBT.available()==0){}    //wait until there's anything available on the bluetooth serial
   
   val = SerialBT.read();
 
@@ -116,6 +116,7 @@ void loop(){
 
 
 }
+
 
 
 

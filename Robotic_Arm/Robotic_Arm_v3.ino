@@ -1,12 +1,12 @@
 //#include <Arduino.h> //uncomment this line if using platformIo
-#include <ESP32Servo.h>
+#include <ESP32Servo.h>			
 #include <BluetoothSerial.h>
 
 #define servoPin 32
 
-BluetoothSerial SerialBT;
+BluetoothSerial SerialBT;			//object SerialBT of class BluetoothSerial
 
-Servo myservo;
+Servo myservo;						//object myservo of class Servo
 
 int servoPosition = 90;
 
